@@ -1,54 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Chilling Cafe by Tooplate</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet" />
-    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
-    <link href="css/tooplate-chilling-cafe.css" rel="stylesheet" />
-<!--
-Tooplate 2118 Chilling Cafe
-https://www.tooplate.com/view/2118-chilling-cafe
--->
-  </head>
-  <body>
-    <div class="tm-container">
-      <div class="tm-text-white tm-page-header-container">
-        <i class="fas fa-mug-hot fa-2x tm-page-icon"></i>
-        <h1 class="tm-page-header">Plant & Stek</h1>
-      </div>
-      <div class="tm-main-content">
-        <div id="tm-intro-img"></div>
-
-      </div>
-      <footer>
-        <p class="tm-text-white tm-footer-text">
-          Copyright &copy; 2020 Company Name 
-          . Design:
-          <a href="https://www.tooplate.com" class="tm-footer-link">Tooplate</a>
-        </p>
-      </footer>
-    </div>
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script>
-      $(function() {
-        // Adjust intro image height based on width.
-        $(window).resize(function() {
-          var img = $("#tm-intro-img");
-          var imgWidth = img.width();
-
-          // 640x425 ratio
-          var imgHeight = (imgWidth * 425) / 640;
-
-          if (imgHeight < 300) {
-            imgHeight = 300;
-          }
-
-          img.css("min-height", imgHeight + "px");
-        });
-      });
-    </script>
-  </body>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Plant & Stek</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+</head>
+<body>
+  <header>
+    Plant & Stek
+  </header>
+</body>
 </html>
